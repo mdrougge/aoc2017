@@ -1,13 +1,19 @@
+CC = clang++
+CC_FLAGS = -O2 -std=c++11
+LD = clang++
+LD_FLAGS =
 
-all: one.o main.o
-	clang++ -O2 -o aoc one.o main.o
+OBJECTS = main.o one.o
+TARGET = aoc
+
+all: $(OBJECTS)
+	$(LD) -o $(TARGET) $(OBJECTS)
 
 one.o: one.cpp one.h
-	clang++ -O2 -c -std=c++11 one.cpp
+	$(CC) $(CC_FLAGS) -c one.cpp
 
-main.o: main.cpp
-	clang++ -O2 -c -std=c++11 main.cpp
+main.o: main.cpp one.h
+	$(CC) $(CC_FLAGS) -c main.cpp
 
 clean:
-	rm *.o
-
+	rm -f *.o $(TARGET)
