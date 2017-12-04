@@ -1,9 +1,12 @@
 #include <cstdlib>
 
-#include "one.h"
-int main(int argc, char** argv) {
-    solve1(argc, argv);
+#include "aoc1.h"
+#include "aoc2.h"
 
-    return 0;
+int main(int argc, char** argv) {
+  aoc1::solve(argc, argv);
+  aoc2::solve(argc, argv);
+  
+  return 0;
 }
 
