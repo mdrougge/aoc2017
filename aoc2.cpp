@@ -57,7 +57,7 @@ namespace aoc2 {
 
   void
   solvePart1(int argc, char** argv) {
-    std::ifstream ifs("aoc2-1.input");
+    std::ifstream ifs("input/aoc2.in");
     std::vector<std::vector<int>> data = loadInput(ifs);
     int cs = 0;
     std::vector<std::vector<int>>::iterator row = data.begin();
@@ -108,7 +108,7 @@ namespace aoc2 {
    */
   void
   solvePart2(int argc, char** argv) {
-    std::ifstream is("aoc2-1.input");
+    std::ifstream is("input/aoc2.in");
     std::vector<std::vector<int>> data = loadInput(is);
 
     int cs = 0;

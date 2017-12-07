@@ -55,7 +55,7 @@ namespace aoc4 {
 
   void
   solvePart1(int argc, char** argv) {
-    std::ifstream ifs("aoc4.input");
+    std::ifstream ifs("input/aoc4.in");
     std::vector<std::vector<std::string>> data = loadInput(ifs);
 
     int valid = 0;
@@ -102,7 +102,7 @@ namespace aoc4 {
   
   void
   solvePart2(int argc, char** argv) {
-    std::ifstream ifs("aoc4.input");
+    std::ifstream ifs("input/aoc4.in");
     std::vector<std::vector<std::string>> data = loadInput(ifs);
     
     int valid = 0;
