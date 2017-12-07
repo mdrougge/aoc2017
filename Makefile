@@ -3,7 +3,7 @@ CC_FLAGS = -O0 -g -std=c++11
 LD = clang++
 LD_FLAGS =
 
-OBJECTS = main.o aoc1.o aoc2.o aoc3.o
+OBJECTS = main.o aoc1.o aoc2.o aoc3.o aoc4.o
 TARGET = aoc
 
 all: $(OBJECTS)
@@ -17,6 +17,9 @@ aoc2.o: aoc2.cpp aoc2.h
 
 aoc3.o: aoc3.cpp aoc3.h
 	$(CC) $(CC_FLAGS) -c aoc3.cpp
+
+aoc4.o: aoc4.cpp aoc4.h
+	$(CC) $(CC_FLAGS) -c aoc4.cpp
 
 main.o: main.cpp
 	$(CC) $(CC_FLAGS) -c main.cpp
