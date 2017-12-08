@@ -1,3 +1,10 @@
+#include "aoc.h"
+#include <cstdio>
+#include <cstdlib>
+#include <iostream>
+#include <vector>
+#include <string>
+
 /*
  * --- Day 1: Inverse Captcha ---
  * The night before Christmas, one of Santa's Elves calls you in a panic. "The printer's broken! We can't print the
@@ -38,12 +45,6 @@
  *
  */
 
-#include "aoc1.h"
-#include <cstdio>
-#include <cstdlib>
-#include <iostream>
-#include <vector>
-#include <string>
 
 namespace aoc1 {
   

@@ -1,4 +1,4 @@
-#include "aoc2.h"
+#include "aoc.h"
 #include <cstdio>
 #include <cstdlib>
 #include <iostream>
@@ -6,6 +6,7 @@
 #include <string>
 #include <fstream>
 #include <sstream>
+
 namespace aoc2 {
 
   std::vector<std::vector<int>>

@@ -1,4 +1,4 @@
-#include "aoc5.h"
+#include "aoc.h"
 #include <cstdio>
 #include <cstdlib>
 #include <iostream>
