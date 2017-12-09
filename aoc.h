@@ -25,5 +25,10 @@ namespace aoc5 {
   void solvePart1(int argc, char** argv);
   void solvePart2(int argc, char** argv);
 }
+namespace aoc6 {
+  void solve(int argc, char** argv);
+  void solvePart1(int argc, char** argv);
+  void solvePart2(int argc, char** argv);
+}
 
 #endif
